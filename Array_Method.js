@@ -9,7 +9,7 @@ numbers.forEach(function(number){
 const names = ["Esther", "John", "Ada", "Mike"];
 names.forEach(function(name){
   console.log("Hello " + name + "!");
-})
+});
 
 //SECTION B: map()
 //Question 3: Using map() to create a new array where each number in the array is squared.
@@ -40,5 +40,6 @@ const filteredNumber2 = numbers4.filter(numbers4 => numbers4 > 20); //select num
 
 const mappedNumber = numbers4.map(numbers4 => numbers4 <= 20 ? numbers4 * 2: numbers4); 
 //Used a ternary operator to only multiply numbers that are less than or equal to 20. i.e. numbers4 <= 20 (condition)?; numbers4 * 2 (action to be carried out on numbers that pass the condition) : numbers4 (numbers which do not pass the condition and are to be returned as they are without any action). Works like an if/else statement.
-console.log(mappedNumber);
+console.log(mappedNumber); 
+
 
